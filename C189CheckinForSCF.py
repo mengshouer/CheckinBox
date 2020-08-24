@@ -164,3 +164,4 @@ def login(username, password):
     redirect_url = r.json()['toUrl']
     r = s.get(redirect_url)
     return s
+__name__ == "__main__" and C189Checkin()
