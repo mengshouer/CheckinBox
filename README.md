@@ -1,5 +1,21 @@
 # Cloud189Checkin
 天翼云盘每日签到一次，抽奖2次<br>
+
+* 使用github Actions实现自动签到
+    *  1.先fork仓库
+    *  2.转到自己的仓库，在仓库的“Settings” --》“Secrets” 中添加Secrets
+        *  (1) Secrets的name设置为"Checkin189"(不要引号)
+        *  (2) Secrets的value设置为以下一整段(账号密码改为自己的，SCKEY可以留空)
+          ```json
+          {
+            "username": "xxxx@189.com",
+            "password": "xxxxxxx",
+            "SCKEY": ""
+          }
+          ```
+    *  3.在"Actions"中的"run_sign_work"下点击"Run workflow"即可手动执行签到，每天凌晨0:05自动签到
+
+
 使用方法<br>
 1.测试环境为python3.7.6,自行安装python3<br>
 2.requirements.txt 是所需第三方模块，执行 `pip install -r requirements.txt` 安装模块<br>
