@@ -40,9 +40,12 @@ def C189Checkin(*args):
         #第一次抽奖
         response = s.get(url,headers=headers,timeout=20)
         if ("errorCode" in response.text):
-            if(response.json()['errorCode'] == "User_Not_Chance"):
+            if("User_Not_Chance" in response.text):
                 print("抽奖次数不足")
                 msg += "抽奖次数不足,"
+            elif("InternalError" in response.text):
+                print("内部错误，可能是活动下线")
+                msg += "内部错误，可能是活动下线,"
             else:
                 print(response.text)
                 msg += "第一次抽奖出错,"
@@ -60,9 +63,12 @@ def C189Checkin(*args):
         #第二次抽奖
         response = s.get(url2,headers=headers,timeout=20)
         if ("errorCode" in response.text):
-            if(response.json()['errorCode'] == "User_Not_Chance"):
+            if("User_Not_Chance" in response.text):
                 print("抽奖次数不足")
                 msg += "抽奖次数不足,"
+            elif("InternalError" in response.text):
+                print("内部错误，可能是活动下线")
+                msg += "内部错误，可能是活动下线,"
             else:
                 print(response.text)
                 msg += "第二次抽奖出错,"

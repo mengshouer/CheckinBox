@@ -10,6 +10,8 @@
 
 - [网易云音乐每日签到与刷歌单](https://github.com/mengshouer/CheckinBox/tree/master/NetEase_Music_daily)
 
+- [有道云笔记签到](https://github.com/mengshouer/CheckinBox/tree/master/NoteyoudaoCheckin)
+
 
 ### Github Actions版本<br>
 1.点击项目右上角的Fork，Fork此项目<br>

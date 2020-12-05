@@ -29,6 +29,8 @@ jobs:
          cookie_smzdm: ${{ secrets.cookie_smzdm }}
          netease_username: ${{ secrets.netease_username }}
          netease_password: ${{ secrets.netease_password }}
+         note_username: ${{ secrets.note_username }}
+         note_password: ${{ secrets.note_password }}
        run: |
          pip3 install -r requirements.txt
          python3 ./Cloud189Checkin/C189CheckinForSCF.py
@@ -36,3 +38,4 @@ jobs:
          python3 ./Checkin52pj/Checkin52pjForSCF.py
          python3 ./smzdmCheckin/smzdmCheckinForSCF.py
          python3 ./NetEase_Music_daily/NetEase_Music_dailyForSCF.py
+         python3 ./NoteyoudaoCheckin/NoteYoudaoForSCF.py
