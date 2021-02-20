@@ -2,7 +2,7 @@ name: 'run'
 
 on:
   schedule:
-    - cron: '30 16 * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
