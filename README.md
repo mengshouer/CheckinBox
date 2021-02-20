@@ -12,6 +12,12 @@
 
 - [有道云笔记签到](https://github.com/mengshouer/CheckinBox/tree/master/NoteyoudaoCheckin)
 
+- [V2EX签到](https://github.com/mengshouer/CheckinBox/tree/master/V2EX)
+
+- [恩山论坛签到](https://github.com/mengshouer/CheckinBox/tree/master/Enshan)
+
+- [智友邦签到](https://github.com/mengshouer/CheckinBox/tree/master/Zhiyou)
+
 
 ### Github Actions版本<br>
 1.点击项目右上角的Fork，Fork此项目<br>
@@ -30,9 +36,24 @@ value内输入：1.登录手机号 2.登录密码 3.Server酱推送SCKEY,报错�
 5.层配置，添加层，选择刚才新建的层。最后点完成<br>
 6.进入函数→触发管理→新建触发器，按自己需求定时启动<br>
 7.自己酌情修改函数的内存与执行超时时间以及其他参数<br>
-<br>
+
 ### 多账号设置<br>
 Github Actions版本直接Secrets内多账号时账号密码一行一个一一对应<br>
 腾讯云函数SCF在每个账号和密码后面添加\n，账号密码也是一一对应<br>
 无多Server酱推送<br>
+
+### 自动同步仓库设置<br>
+基础使用：<br>
+> 上游变动后pull插件会自动发起pr，但如果有冲突需要自行**手动**确认。<br>
+
+安装[pull插件](https://github.com/apps/pull)，然后设置生效的仓库并确认此项目已在pull插件的作用下<br>
+
+高级使用：<br>
+> 强制远程分支覆盖自己的分支<br>
+
+1. 先完成基础使用后，在.github目录下创建文件pull.yml<br>
+2. 参考[插件使用文档](https://github.com/wei/pull#advanced-setup-with-config)进行修改<br>
+PS.实际上修改Most Common中的内容就够了，注意修改upstream的值"wei"更改为上游仓库的所有者
+
+
 ### 一切提醒都是报错提醒，没问题不提醒
