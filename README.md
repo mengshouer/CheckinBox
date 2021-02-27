@@ -4,7 +4,7 @@
 
 - [最终幻想14积分商城签到](https://github.com/mengshouer/CheckinBox/tree/master/FF14Checkin)
 
-- [什么值得买网页每日签到](https://github.com/mengshouer/CheckinBox/tree/master/smzdmCheckin)
+- [什么值得买网页每日签到车](https://github.com/mengshouer/CheckinBox/tree/master/smzdmCheckin)
 
 - [52pojie每日签到](https://github.com/mengshouer/CheckinBox/tree/master/Checkin52pj)
 
