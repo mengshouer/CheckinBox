@@ -21,7 +21,7 @@
 - [WPS小程序邀请](https://github.com/mengshouer/CheckinBox/tree/master/WPS)
 
 
-### Github Actions版本<br>
+### Github Actions版 本<br>
 1.点击项目右上角的Fork，Fork此项目<br>
 2.到自己Fork的项目点击Actions，如果未启用，需要手动启用，然后启用需要运行的Workflows
 <br>
