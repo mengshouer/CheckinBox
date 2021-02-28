@@ -1,24 +1,24 @@
 # CheckinBox
 ### 自己用的一些脚本，不填数值默认不启用<br>
-- [天翼云盘每日签到一次，抽奖2次](https://github.com/mengshouer/CheckinBox/tree/master/Cloud189Checkin)
+- [天翼云盘每日签到一次，抽奖2次](https://github.com/q14060/CheckinBox/tree/master/Cloud189Checkin)
 
-- [最终幻想14积分商城签到](https://github.com/mengshouer/CheckinBox/tree/master/FF14Checkin)
+- [最终幻想14积分商城签到](https://github.com/q14060/CheckinBox/tree/master/FF14Checkin)
 
-- [什么值得买网页每日签到车](https://github.com/mengshouer/CheckinBox/tree/master/smzdmCheckin)
+- [什么值得买网页每日签到车](https://github.com/q14060/CheckinBox/tree/master/smzdmCheckin)
 
-- [52pojie每日签到](https://github.com/mengshouer/CheckinBox/tree/master/Checkin52pj)
+- [52pojie每日签到](https://github.com/q14060/CheckinBox/tree/master/Checkin52pj)
 
-- [网易云音乐每日签到与刷歌单](https://github.com/mengshouer/CheckinBox/tree/master/NetEase_Music_daily)
+- [网易云音乐每日签到与刷歌单](https://github.com/q14060/CheckinBox/tree/master/NetEase_Music_daily)
 
-- [有道云笔记签到](https://github.com/mengshouer/CheckinBox/tree/master/NoteyoudaoCheckin)
+- [有道云笔记签到](https://github.com/q14060/CheckinBox/tree/master/NoteyoudaoCheckin)
 
-- [V2EX签到](https://github.com/mengshouer/CheckinBox/tree/master/V2EX)
+- [V2EX签到](https://github.com/q14060/CheckinBox/tree/master/V2EX)
 
-- [恩山论坛签到](https://github.com/mengshouer/CheckinBox/tree/master/Enshan)
+- [恩山论坛签到](https://github.com/q14060/CheckinBox/tree/master/Enshan)
 
-- [智友邦签到](https://github.com/mengshouer/CheckinBox/tree/master/Zhiyou)
+- [智友邦签到](https://github.com/q14060/CheckinBox/tree/master/Zhiyou)
 
-- [WPS小程序邀请](https://github.com/mengshouer/CheckinBox/tree/master/WPS)
+- [WPS小程序邀请](https://github.com/q14060/CheckinBox/tree/master/WPS)
 
 
 ### Github Actions版 本<br>
