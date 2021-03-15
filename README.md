@@ -1,6 +1,6 @@
 # CheckinBox
 ### 自己用的一些脚本，不填数值默认不启用<br>
-- [天翼云盘每日签到一次，抽奖2次](https://github.com/q14060/CheckinBox/tree/master/Cloud189Checkin)
+- [天翼云盘每日签到,一次，抽奖2次](https://github.com/q14060/CheckinBox/tree/master/Cloud189Checkin)
 
 - [最终幻想14积分商城签到](https://github.com/q14060/CheckinBox/tree/master/FF14Checkin)
 
